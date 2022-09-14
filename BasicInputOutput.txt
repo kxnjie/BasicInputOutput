@@ -1,0 +1,62 @@
+using System;
+namespace ConsoleApp
+{
+class GreetingInformation
+{
+static void Main (string[] args)
+{
+Console.Write("Name: "); 
+string name = Console.ReadLine();
+
+Console.Write("Present Address: ");
+string presentaddress = Console.ReadLine();
+
+Console.Write("Permanent Address: ");
+string permanentaddress = Console.ReadLine();
+
+Console.Write("Date of Birth: ");
+string dateofbirth = Console.ReadLine();
+
+Console.Write("Civil Status: ");
+string civilstatus = Console.ReadLine();
+
+Console.Write("Citizenship: ");
+string citizenship = Console.ReadLine();
+
+Console.Write("Place of Birth: ");
+string placeofbirth = Console.ReadLine();
+
+Console.Write("Name of Father: ");
+string father = Console.ReadLine();
+
+Console.Write("Name of Mother: ");
+string mother = Console.ReadLine();
+
+Console.Write("Address: ");
+string address = Console.ReadLine();
+
+Console.Write("Language: ");
+string language = Console.ReadLine();
+
+Console.Write("Person to be notified In Case of Emergency: ");
+string emergency = Console.ReadLine();
+
+Console.Write("Religion: ");
+string religion = Console.ReadLine();
+
+Console.Write("Enter your age: ");
+string age = Console.ReadLine();
+
+Console.Write("Enter your Weight: ");
+string weight = Console.ReadLine();
+
+Console.Write("Enter your Height: ");
+string height = Console.ReadLine();
+
+Console.Write("==================Your Information=================");
+Console.Write("\n==================================================\n");
+Console.Write("Name: " +name+"\nPresentAddress: " +presentaddress+"\nPermanentAddress: " +permanentaddress+"\nDateofBirth: " +dateofbirth+"\nCivilStatus: " +civilstatus+"\nCitizenship: " +citizenship+"\nPlaceOfBirth: " +placeofbirth+"\nNameOfFather: " +father+"\nNameOfMother: " +mother+"\nAddress: " +address+"\nLanguage: " +language+"\nPerson to Notify Incase of Emergency: " +emergency+"\nReligion: " +religion+"\nAge: " +age+"\nWeight: " +weight+"\nHeight: " +height);
+Console.ReadKey();
+}
+}
+}
